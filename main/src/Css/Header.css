@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Ensures child elements stack vertically */
+    width:100%;
+    position: relative;
+    height: 250px;
+    background-color: #12232E;
+    color: white; /* Ensures text is visible on dark background */
+}
+.headerContent {
+    position:relative;
+    width:100%;
+    left:40px
+}
