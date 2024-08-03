@@ -28,6 +28,9 @@ const FilterSidebar = () => {
                     <a href="#" className="see-more">See More</a>
                 </div>
             </div>
+            {/* <div className="condition">
+
+            </div> */}
             <div className="filter-section3">
                 <select className='brand-select'>
                     <option value=''>Brand</option>

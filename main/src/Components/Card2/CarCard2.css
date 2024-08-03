@@ -4,17 +4,18 @@
     overflow: hidden;
     display: flex;
     margin-bottom: 16px;
+    height: 213px;
 }
 
 .car-image {
-    width: 250px;
-    height: auto;
+    width: 200px;
+    height: 150px;
 }
 
 .car-info {
     padding: 16px;
     position: relative;
-    
+    bottom:24px;
 }
 
 .car-info h3 {
@@ -25,7 +26,7 @@
     margin: 4px 0;
     color:white;
 }
-.Used {
+.new {
     display: flex;
     width:20px;
     height:34px;
@@ -34,7 +35,7 @@
     border-radius:3px;
     border:1px #007CC7;
 }
-.Used p {
+.new p {
     color: #007CC7;
    
 }

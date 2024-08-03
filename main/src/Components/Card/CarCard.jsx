@@ -1,5 +1,6 @@
 import React from 'react';
 import './CarCard.css';
+import Review from '../Review/Review';
 import Data from '../../Data';
 const CarCard = ({ car }) => {
     return (
@@ -16,6 +17,7 @@ const CarCard = ({ car }) => {
                     <div><p>{car.energy}</p></div>
                     <div><p>{car.seat} seats</p></div>
                 </div>
+                <Review></Review>
             </div>
         </div>
     );
