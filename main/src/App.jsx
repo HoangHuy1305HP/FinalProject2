@@ -17,16 +17,18 @@ import NewCar from './Components/View/NewCar/NewCar';
 import UsedCar from './Components/View/UsedCar/UsedCar';
 import SearchResult1 from './Components/View/SearchResult1/SearchResult1';
 import SearchResult2 from './Components/View/SeacrhResult2/SearchResult2';
+import Homepage from './Homepage';
 import './App.css'
 function App() {
   return (
     
     <div className='container'>
+      <Homepage></Homepage>
       {/* <NewCar></NewCar> */}
       {/* <UsedCar></UsedCar> */}
       {/* <SearchResult1></SearchResult1> */}
       {/* <SearchResult></SearchResult> */}
-      <SearchResult2></SearchResult2>
+      {/* <SearchResult2></SearchResult2> */}
         {/* <div className='headerContent'>
             <h1>Used Cars</h1>
             <p>Homepage - Used Cars</p>

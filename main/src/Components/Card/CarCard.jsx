@@ -4,8 +4,8 @@ import Review from '../Review/Review';
 import Data from '../../Data';
 const CarCard = ({ car }) => {
     return (
-        <div className="car-card">
-            <img src={car.image} alt={car.name} className="car-image" />
+        <div className="car-card">  
+                   <img src={car.image} alt={car.name} className="car-image" />
             <div className="car-info">
                 <div className='new'><p>New</p></div>
                 <h3>{car.name}</h3>
@@ -18,7 +18,8 @@ const CarCard = ({ car }) => {
                     <div><p>{car.seat} seats</p></div>
                 </div>
                 <Review></Review>
-            </div>
+            </div> 
+               
         </div>
     );
 };

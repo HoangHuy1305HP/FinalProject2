@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+    background-color: #0B0C10;
+}
+
+.recommendedCar {
+    color: white;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.options>h3 {
+    color: #007CC7;
+}
+
+.options>p {
+    color: #007CC7;
+    font-size: 14px;
+}
