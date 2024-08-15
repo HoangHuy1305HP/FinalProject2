@@ -13,6 +13,8 @@
     background-color: #12232E;
     gap: 30px;
     height: 450px;
+
+    width: 100%;
 }
 
 .img>img {

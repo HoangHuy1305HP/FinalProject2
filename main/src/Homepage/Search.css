@@ -29,7 +29,7 @@
     color: #007CC7;
 }
 
-.search {
+.search1 {
     display: flex;
 
     align-items: center;
@@ -43,13 +43,13 @@
     color: white;
 }
 
-input {
+.search1>input {
     padding: 16px 250px 16px 36px;
     background-color: #152836;
     color: #A9A9A9;
 }
 
-.search>select {
+.search1>select {
 
     width: 220px;
     height: 48px;
@@ -70,6 +70,7 @@ select>section {
 
 .location>input {
     width: 50px;
+    padding: 16px 250px 16px 36px;
 }
 
 .licon {
